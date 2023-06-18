@@ -7,7 +7,7 @@ Un programa para resolver sudokus 9x9 hecho en Java, implementando backtracking 
 El proyecto tiene dos paquetes principales:
   * [sudoku](https://github.com/ubiobio/SudokuSolver/tree/master/src/cl/bgm/sudoku): Contiene clases relacionadas al juego "Sudoku".
     * [Cell](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/sudoku/Cell.java): Representa una celda en el tablero del sudoku.
-    * [Sudoku](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/sudoku/Sudoku.java): Representa el Sudoku como juego.
+    * [Sudoku](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/sudoku/Sudoku.java): Representa el sudoku como juego.
   * [util](https://github.com/ubiobio/SudokuSolver/tree/master/src/cl/bgm/util): Paquete utilitario.
     * [ConsoleUtil](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/util/ConsoleUtil.java): Provee métodos para leer desde consola.
 
