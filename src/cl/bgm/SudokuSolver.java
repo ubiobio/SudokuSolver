@@ -14,10 +14,10 @@ public class SudokuSolver {
         System.out.println(sudoku);
         System.out.println();
 
-        System.out.println("Solution:");
+        System.out.println("Solución:");
         sudoku.solve();
         if (!sudoku.isSolved()) {
-            System.out.println("This Sudoku does not have a solution.");
+            System.out.println("Este tablero no tiene solución!");
         }
     }
 }
