@@ -5,11 +5,11 @@ Un programa para resolver sudokus 9x9 hecho en Java, implementando backtracking 
 
 ## Paquetes y clases
 El proyecto tiene dos paquetes principales:
-  * [sudoku](https://github.com/BGMP/SudokuSolver/tree/master/src/cl/bgmp/sudoku): Contiene clases relacionadas al juego "Sudoku".
-    * [Cell](https://github.com/BGMP/SudokuSolver/blob/master/src/cl/bgmp/sudoku/Cell.java): Representa una celda en el tablero del sudoku.
-    * [Sudoku](https://github.com/BGMP/SudokuSolver/blob/master/src/cl/bgmp/sudoku/Sudoku.java): Representa el Sudoku como juego.
-  * [util](https://github.com/BGMP/SudokuSolver/tree/master/src/cl/bgmp/util): Paquete utilitario.
-    * [ConsoleUtil](https://github.com/BGMP/SudokuSolver/blob/master/src/cl/bgmp/util/ConsoleUtil.java): Provee métodos para leer desde consola.
+  * [sudoku](https://github.com/ubiobio/SudokuSolver/tree/master/src/cl/bgm/sudoku): Contiene clases relacionadas al juego "Sudoku".
+    * [Cell](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/sudoku/Cell.java): Representa una celda en el tablero del sudoku.
+    * [Sudoku](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/sudoku/Sudoku.java): Representa el Sudoku como juego.
+  * [util](https://github.com/ubiobio/SudokuSolver/tree/master/src/cl/bgm/util): Paquete utilitario.
+    * [ConsoleUtil](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/util/ConsoleUtil.java): Provee métodos para leer desde consola.
 
 ## Uso
 El programa puede utilizarse directamente desde la consola de comandos, en donde puedes escribir sudokus manualmente
