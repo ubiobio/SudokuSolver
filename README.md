@@ -21,7 +21,7 @@ Para compilar manualmente desde consola, muévete dentro del directorio `build/`
 jar cmvf META-INF\MANIFEST.MF SudokuSolver.jar cl\bgm\*
 ```
 
-Luego para ejecutarlo:
+Luego, para ejecutar el programa:
 ```sh
 java -jar SudokuSolver.jar
 ```
