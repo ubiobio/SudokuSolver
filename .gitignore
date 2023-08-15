@@ -27,4 +27,3 @@ dependency-reduced-pom.xml
 *.pbxuser
 *.xcworkspace
 xcuserdata
-*class

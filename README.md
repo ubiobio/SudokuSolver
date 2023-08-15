@@ -11,6 +11,21 @@ El proyecto tiene dos paquetes principales:
   * [util](https://github.com/ubiobio/SudokuSolver/tree/master/src/cl/bgm/util): Paquete utilitario.
     * [ConsoleUtil](https://github.com/ubiobio/SudokuSolver/blob/master/src/cl/bgm/util/ConsoleUtil.java): Provee métodos para leer desde consola.
 
+## Compilación
+Para compilar este proyecto, se recomienda utilizar cualquier IDE moderno. Por ejemplo, SodokuSolver fue desarrollado
+utilizando  [IntelliJ IDEA](https://www.jetbrains.com/idea/). Desde este entorno puedes importar el proyecto y
+ejecutarlo dentro del mismo.
+
+Para compilar manualmente desde consola, muévete dentro del directorio `build/`, y ejecuta lo siguiente:
+```sh
+jar cmvf META-INF\MANIFEST.MF SudokuSolver.jar cl\bgm\*
+```
+
+Luego para ejecutarlo:
+```sh
+java -jar SudokuSolver.jar
+```
+
 ## Uso
 El programa puede utilizarse directamente desde la consola de comandos, en donde puedes escribir sudokus manualmente
 llamando a la función `Sudoku.fromCommandLine()` de la siguiente forma:
